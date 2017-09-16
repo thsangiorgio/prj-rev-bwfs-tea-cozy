@@ -1,0 +1,112 @@
+/*Universal */
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  overflow: scroll;
+}
+/*================HEADER=============*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+.logo {
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+}
+nav {
+  display: flex;
+}
+nav a{
+  margin-left: 15px;
+  color: seashell;
+
+}
+/*================CONTENT=============*/
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.column {
+  margin: 0 auto;
+}
+/*================MISION=============*/
+.mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  background-color: black;
+  text-align: center;
+
+}
+/*================FEATURED=============*/
+.photos {
+  width: 1000px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.photo {
+  margin: 0 15px;
+}
+.photo img {
+display: flex;
+height: 200px;
+width: 300px;
+justify-content: center;
+margin-bottom: 0;
+}
+.photo h4 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+/*================LOCATIONS=============*/
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.all-locations {
+  display: inline-flex;
+  justify-content: center;
+}
+.each-location {
+  display: flex;
+  width: 300px;
+  background-color: black;
+  flex-flow: column wrap;
+  margin: 15px 20px;
+  opacity: 1;
+}
+.each-location h3, .each-location p {
+  margin: 20px auto;
+}
+/*================FOOTER=============*/
+.contact {
+  display: flex;
+  flex-flow: column;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.copyright h5 {
+  margin-left: 20px;
+  text-align: left;
+}
